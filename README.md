@@ -4,10 +4,8 @@
 Веб-приложение для учета медицинских карт пациентов, разработанное с использованием Django и MySQL.
 
 ## Технологии
-- Backend: Python 3.x, Django 5.0
+- Backend: Python, Django
 - База данных: MySQL
-- Frontend: JavaScript, HTML, CSS
-- API: REST
 
 ## Установка и запуск
 
@@ -15,8 +13,6 @@
 ```bash
 python -m venv venv
 source venv/bin/activate  # для Linux/Mac
-# или
-venv\Scripts\activate  # для Windows
 ```
 
 2. Установите зависимости:
@@ -61,6 +57,3 @@ python manage.py runserver
 - `/api/patients/` - управление пациентами
 - `/api/medical-cards/` - управление медицинскими картами
 - `/api/users/` - управление пользователями
-
-## Лицензия
-MIT 
